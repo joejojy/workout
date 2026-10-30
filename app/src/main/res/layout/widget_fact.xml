@@ -1,0 +1,1 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/row_title" style="@style/WidgetText" android:paddingTop="3dp" android:paddingBottom="3dp" android:textSize="12sp" />

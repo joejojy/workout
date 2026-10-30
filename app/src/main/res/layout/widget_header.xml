@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:layout_marginBottom="10dp">
+  <TextView android:id="@+id/widget_brand" style="@style/WidgetText" android:layout_width="0dp" android:layout_weight="1" android:text="WORKOUT" android:textSize="11sp" android:letterSpacing="0.10" android:maxLines="1" />
+  <TextView android:id="@+id/week_day" style="@style/WidgetText" android:layout_width="wrap_content" android:text="W1 · MON" android:textSize="11sp" android:paddingHorizontal="7dp" android:paddingVertical="4dp" android:background="@drawable/button_green" />
+</LinearLayout>

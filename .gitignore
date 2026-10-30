@@ -1,0 +1,21 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.log
+artifacts/
+captures/
+__pycache__/
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*
+
+# Personal PDF exports are private by default; only fictional examples are tracked.
+*.pdf
+!examples/sample-plan.pdf
+!examples/sample-plan-scanned.pdf
+!app/src/main/assets/sample-plan.pdf
+!app/src/androidTest/assets/sample-plan-scanned.pdf

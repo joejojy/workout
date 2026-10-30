@@ -1,0 +1,4 @@
+<resources>
+  <style name="WidgetText"><item name="android:layout_width">match_parent</item><item name="android:layout_height">wrap_content</item><item name="android:textColor">#FFFFFF</item><item name="android:textSize">13sp</item><item name="android:includeFontPadding">false</item></style>
+  <style name="WidgetTitle" parent="WidgetText"><item name="android:textSize">22sp</item><item name="android:fontFamily">sans-serif-medium</item></style>
+</resources>

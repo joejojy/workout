@@ -1,0 +1,10 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_host" android:layout_width="match_parent" android:layout_height="match_parent"><LinearLayout android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp" android:background="@drawable/widget_background">
+<include layout="@layout/widget_header" />
+<include layout="@layout/widget_summary" />
+<LinearLayout android:id="@+id/inline_rows" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:visibility="gone" />
+<FrameLayout android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:visibility="gone" android:layout_marginTop="8dp">
+  <ListView android:id="@+id/workout_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@android:color/transparent" android:dividerHeight="0dp" android:scrollbars="vertical" android:cacheColorHint="#000000" android:background="#000000" android:contentDescription="Workout details. Scroll for more." />
+</FrameLayout>
+<LinearLayout android:id="@+id/agenda_rows" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:visibility="gone" />
+<include layout="@layout/widget_footer" />
+</LinearLayout></FrameLayout>

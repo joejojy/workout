@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Workout</string>
+    <string name="widget_description">Your daily running and strength plan. Resize to reveal more detail.</string>
+    <string name="view_session">View session ↗</string>
+</resources>
